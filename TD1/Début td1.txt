@@ -1,0 +1,19 @@
+~$ ls
+'TD1 py.term'  'Welcome to CoCalc.ipynb'   data   donnee
+~$ grep -oP '\{.+?\]\}'data > reslt.txt
+^C
+~$ grep -oP '\{.+?\]\}'data > reslt.txt
+^C
+~$ vim reslt
+~$ less reslt
+~$ 
+~$ grep -oP '\{.+?\]\}' data > reslt.txt
+~$ less reslt
+~$ 
+~$ less data
+~$ grep -oP '\{.+?\]\}' data > dd.txt
+~$ less dd
+dd: No such file or directory
+~$ grep -oP '\{.+?\]\}' data > dd.txt
+~$ less dd.txt
+~$ grep Derbyshire dd.txt
